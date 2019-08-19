@@ -1,5 +1,10 @@
 # 这是一个 Markdown 案例 readme.md
 
+#### [MarkDown中插入数学公式](https://weilai5432.github.io/2017/01/11/MathJax-%E5%9C%A8MarkDown%E4%B8%AD%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/)
+
+$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+
+
 ## 这里展示一下起步的 HTML
 
 创建一个文件 `index.html`，并用编辑器将下边的文字填入这个文件。
