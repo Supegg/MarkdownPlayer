@@ -4,7 +4,11 @@
 
 $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
 
-## 这里展示一下起步的 HTML
+## 自动索引
+
+运行 `python build.py` 自动搜索目录下所有*.md文件，并将索引写入`index.md`
+
+## 模板HTML
 
 创建一个文件 `index.html`，并用编辑器将下边的文字填入这个文件。
 
@@ -13,14 +17,12 @@ $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HELLO</title>
-    <link href="//cdn.bootcss.com/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <link href="//cdn.bootcss.com/skeleton/2.0.4/skeleton.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="//cdn.bootcss.com/markdown-it/4.4.0/markdown-it.min.js"></script>
   </head>
   <body>
-    <h1>你好，世界！</h1>
+    <h1>Hello Markdown</h1>
   </body>
 </html>
 ```
