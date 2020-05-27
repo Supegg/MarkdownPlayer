@@ -10,7 +10,7 @@ $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
 
 ## 模板HTML
 
-创建一个文件 `index.html`，并用编辑器将下边的文字填入这个文件。
+创建一个文件 `index.html`，如下
 
 ```html
 <!DOCTYPE html>
